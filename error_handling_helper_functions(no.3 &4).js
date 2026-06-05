@@ -13,7 +13,7 @@ const stringHelpers = {
     return str.trim().split(/\s+/).filter(word => word.length > 0).length;
   }
 };
-console.log("capitalize:", stringHelpers.capitalize("Lisekho"));
+console.log("capitalize:", stringHelpers.capitalize("lisekho"));
 console.log("reverse:", stringHelpers.reverseString("Error"));
 console.log("count:", stringHelpers.countWords("TaShepsta"))
 // Helper functions for array operations
